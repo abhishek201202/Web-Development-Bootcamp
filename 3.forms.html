@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Demo</title>
+</head>
+<body>
+	<h1>Input Tag</h1>
+	<input type="text">
+	<input type="color">
+	<input type="radio">
+	<input type="password">
+
+
+	<h1>Login Form</h1>
+	<!-- action - where the form send data to -->
+	<!-- if i don't specify action it goes to same page-->
+	<!-- method - what http method(get/post) -->
+	<!-- if we don't specify the method, it send the get request -->
+	<!-- when we submit this form data also send with this form -->
+
+
+
+
+
+	<h3>1. Input tag and label tag are nested</h3>
+	<form action="https://www.codechef.com/users/abhishek201202" method="get">
+		<label>
+			Username:
+			<input name="username" type="text" placeholder="username">
+		</label>
+		<label>
+			Password:
+			<input name="password" type="password" placeholder="password">
+		</label>
+		<!-- <button>Submit</button> -->
+		<input type="submit">
+		<!-- if we use name as an argument, then this will happen -->
+		<!-- https://www.wikipedia.org/?username=abhishek201202&password=201202 -->
+	</form>
+
+
+
+
+	<h3>2. Input tag and label tag are connected by for and id attribute</h3>
+	<form action="https://codeforces.com/profile/dy_by_dx" method="get">
+		<label for="Email">Email:</label>
+		<input id="Email" name="Email" type="Email" placeholder="Email" required>
+
+		<label for="password">Password:</label>		
+		<input id="password" name="password" type="password" placeholder="password" required>
+		<input type="submit">
+	</form>
+
+
+</body>
+</html>

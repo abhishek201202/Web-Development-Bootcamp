@@ -1,0 +1,34 @@
+/*star Selector*/
+*{
+	border: 1px solid lightgrey;
+}
+
+
+/*Descendant Selector*/
+li a{
+	color : red;
+}
+
+/*Adjacent Selector*/
+h4 + ul{
+	border: 4px solid red;
+}
+
+/*Attribute Selector*/
+a[href="https://www.codechef.com/users/abhishek201202"]{
+	background: orange;
+}
+
+/*nth of type*/
+ul:nth-of-type(3){
+	background: purple;
+
+}
+
+li:nth-of-type(3){
+	background: red;	
+}
+
+li:nth-of-type(even){
+	background: blue;	
+}

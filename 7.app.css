@@ -1,0 +1,29 @@
+<style type="text/css">
+	h1{
+		color: red;
+	}
+	li{
+		/*color: rgb(255, 99, 0);*/
+		color: rgba(0, 221, 0, 1);
+	}
+	h1{
+		color: #149CEF;
+		border-color: purple;
+		border-width: 5px; /*5 pixel*/
+		border-style: solid;
+
+		/*OR*/
+		border: 2px solid red;
+	}
+	h4{
+		/*set the background color of all h4*/
+		background: rgb(255, 100, 80);
+	}
+	body{
+		/*set the background color of whole body*/
+		background: pink;
+		background: url(https://cdn02.nintendo-europe.com/media/images/10_share_images/portals_3/H2x1_CharacterHub_InazumaEleven_image1600w.jpg);
+		background-repeat: no-repeat; 
+		background-size: cover;
+	}
+</style>
