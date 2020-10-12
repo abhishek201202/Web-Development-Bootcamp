@@ -1,0 +1,11 @@
+div{
+	width: 100px;
+	float: left;
+}
+
+#one{
+	background-color: blue;
+}
+#two{
+	background-color: pink;
+}

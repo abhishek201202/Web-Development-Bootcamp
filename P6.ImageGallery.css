@@ -1,0 +1,31 @@
+.jumbotron{
+	color: #2c3e50;
+	background: #ecf0f1;
+}
+
+.navbar-inverse{
+	background: #2c3e50;
+}
+
+
+/*color of ankar tag will not change by this because 
+it is overwritten by .navbar-inverse class written above.*/
+/*a{
+	color: white;
+}
+*/
+
+.navbar-inverse .navbar-nav>li>a{
+	color: white;
+}
+
+
+
+/*Same will occur with navbar brand*/
+/*.navbar-brand{
+	color: white;
+}*/
+
+.navbar-inverse .navbar-brand{
+	color: white;
+}

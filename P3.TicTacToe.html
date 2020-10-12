@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TTT Board</title>
+	<style type="text/css">
+		table{
+			margin: auto;
+		}
+		h1{
+			text-align: center;
+		}
+		td{
+			width: 100px;
+			height: 100px;
+			background: pink;
+		}
+		.vertical{
+			border-left: 3px solid black;
+			border-right: 3px solid black;
+		}
+		.horizontal{
+			border-top: 3px solid black;
+			border-bottom: 3px solid black;
+		}
+	</style>
+
+</head>
+<body>
+	<h1>Tic Tac Toe</h1>
+
+	<table>
+		<tr>
+			<td></td>
+			<td class="vertical"></td>
+			<td></td>
+		</tr>
+
+		<tr>
+			<td class="horizontal"></td>
+			<td class="vertical horizontal"></td>
+			<td class="horizontal"></td>
+		</tr>
+		
+		<tr>
+			<td></td>
+			<td class="vertical" class="hor"></td>
+			<td></td>
+		</tr>
+	</table>
+
+</body>
+</html>
