@@ -12,7 +12,7 @@ function f(){
 f();
 
 
-// let is static 
+// let is static b
 for(let i = 0; i < 10; i++){
     console.log(i)
 }
