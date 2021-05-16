@@ -26,6 +26,7 @@ const categories = ["fruit", "vegetable", "dairy"]
 
 
 
+
 app.get("/products", async (req, res) => {
     const {category} = req.query
     if(category){
